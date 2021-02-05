@@ -7,7 +7,7 @@ const Jobs = () => {
         <div className="md:px-22 lg:px-44">
             <div className="md:flex flex md:flex-col flex-col md:items-center items-center">
                 <Adspace />
-                <ul className="divide-y divide-gray-200">
+                <ul className="divide-y divide-gray-200 w-4/5">
                     <Job />
                     <Job />
                     <Job />

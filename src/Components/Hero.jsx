@@ -15,7 +15,7 @@ const Hero = () => {
                     <div className="flex md:items-center sm:flex sm:flex-row md:flex md:justify-between">
                         <div className="flex-1 min-w-0">
                             <div className="flex md:flex">
-                                <button type="button" className="hidden md:block inline-flex sm:inline-flex items-center px-4 py-3 border border-white rounded-md shadow-sm text-sm font-medium text-white bg-none hover:bg-white hover:text-black focus:outline-none focus:ring-2 focus:ring-offset-2">
+                                <button type="button" className="hidden mr-2 md:block inline-flex sm:inline-flex items-center px-4 py-3 border border-white rounded-md shadow-sm text-sm font-medium text-white bg-none hover:bg-white hover:text-black focus:outline-none focus:ring-2 focus:ring-offset-2">
                                     RSS
                                 </button>
                                 <button type="button" className="hidden md:block inline-flex sm:inline-flex items-center px-4 py-3 border border-white rounded-md shadow-sm text-sm font-medium text-white bg-none hover:bg-white hover:text-black focus:outline-none focus:ring-2 focus:ring-offset-2">
