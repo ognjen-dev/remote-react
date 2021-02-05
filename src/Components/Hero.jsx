@@ -7,8 +7,8 @@ import './Hero.css'
 const Hero = () => {
     return (
         <div> 
-            <div className="absolute inset-0 z-negative lg:opacity-100 opacity-100 md:-my-96">
-                <img src={BackGround} className="object-cover w-full h-full"/>
+            <div className="absolute inset-0 z-negative lg:opacity-100 opacity-90 md:-my-96">
+                <img src={BackGround} className="object-cover w-full h-full lg:mt-0 md:mt-16 sm:-mt-30"/>
             </div>
             <div className="p-2 md:z-40 z-40">
                 <div>

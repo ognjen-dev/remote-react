@@ -30,7 +30,7 @@ const Job = () => {
                 </div>
                 <div>
                 <div>
-                    <div className="lg:-ml-0 md:-ml-0 ml-2 flex-shrink-0 flex hidden md:block">
+                    <div className="lg:-ml-0 md:-ml-0 ml-2 flex-shrink-0 flex lg:mt-0 lg:ml-0 -ml-0.5 mt-2">
                         <p className="px-2 inline-flex text-xs md:mb-1 leading-5 font-semibold rounded-full bg-green-100 text-green-800">
                           Full-time
                         </p>
