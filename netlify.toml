@@ -1,1 +1,1 @@
-CI= npm run buildcommand = "CI= npm run build"
+command = "CI= npm run build"
