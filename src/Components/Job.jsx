@@ -3,7 +3,7 @@ import JobLogo from '../Images/job-logo.png'
 
 const Job = () => {
     return (
-        <li>
+        <li className="lg:py-1 mg:py-0 my-0.5 lg:border-t lg:border-r lg:border-l lg:border-b rounded-xl md:border-t md:border-b">
         <a href="#" className="block hover:bg-gray-50">
         <div className="flex items-center px-7 py-7 sm:px-6">
             <div className="min-w-0 flex-1 flex items-center">
