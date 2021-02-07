@@ -1,5 +1,5 @@
 import React from 'react'
-import JobLogo from '../Images/job-logo.png'
+import JobLogo from '../../Images/job-logo.png'
 
 const Job = () => {
     return (
@@ -42,7 +42,7 @@ const Job = () => {
                         </svg>
                         <p>
                           Closing on
-                          <time datetime="2020-01-07">January 7, 2020</time>
+                          <time datetime="2020-01-07"> January 7, 2020</time>
                         </p>
 
                     </div>

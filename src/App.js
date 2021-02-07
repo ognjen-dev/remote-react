@@ -1,7 +1,7 @@
 import './App.css';
 import { Route, BrowserRouter as Router, Link } from 'react-router-dom'
-import FirstPage from './Components/FirstPage.jsx'
-import Hire from './Components/Hire.jsx'
+import FirstPage from './Components/FirstPageComponents/FirstPage.jsx'
+import Hire from './Components/SecondPageComponents/Hire.jsx'
 
 function App() {
   return (

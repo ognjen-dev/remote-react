@@ -1,9 +1,9 @@
 import React from 'react'
 import { Route, BrowserRouter as Router, Link } from 'react-router-dom'
 import HeroIcons from './HeroIcons.jsx'
-import Logo from '../Images/stock-logo.png'
-import BackGround from '../Images/pozadina.png'
-import './Hero.css'
+import Logo from '../../Images/stock-logo.png'
+import BackGround from '../../Images/pozadina.png'
+import '../../Components/Hero.css'
 
 const Hero = () => {
     return (

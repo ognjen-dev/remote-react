@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../Images/stock-logo.png'
+import Logo from '../../Images/stock-logo.png'
 import { Route, BrowserRouter as Router, Link } from 'react-router-dom'
 
 const HeaderBox = () => {
