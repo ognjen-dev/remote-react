@@ -1,13 +1,17 @@
 import './App.css';
-import Hero from './Components/Hero.jsx'
-import Jobs from './Components/Jobs.jsx';
+import { Route, BrowserRouter as Router, Link } from 'react-router-dom'
+import FirstPage from './Components/FirstPage.jsx'
 import Hire from './Components/Hire.jsx'
 
 function App() {
   return (
-    <div className="App">
-      <Hire />
-    </div>
+    <Router>
+        
+      <div className="App">
+      </div>
+      <Route path="/" exact component={FirstPage} />
+      <Route path="/second" component={Hire} />
+    </Router>
   );
 }
 
