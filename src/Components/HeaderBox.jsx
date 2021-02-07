@@ -3,8 +3,8 @@ import Logo from '../Images/stock-logo.png'
 
 const HeaderBox = () => {
     return (
-        <div>
-            <div className="md:flex lg:flex lg:p-2 lg:items-center border-b lg:justify-between">
+        <div className="pt-1">
+            <div className="flex lg:flex lg:p-2 lg:items-center border-b lg:justify-between p-0 justify-center">
                 <div className="">
                     <img src={Logo} />
                 </div>

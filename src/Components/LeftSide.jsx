@@ -29,7 +29,7 @@ const LeftSide = () => {
                         <p className="font-bold text-gray-600">
                             PRIMARY TAG
                         </p>
-                        <div className="w-1/5 ml-0 mt-2 text-center border-l border-t border-r border-b rounded-lg">
+                        <div className="flex lg:flex lg:w-1/5 w-2/4 ml-0 mt-2 text-center border-l border-t border-r border-b rounded-lg">
                             <select name="" id="">
                                 <option>Software Developer</option>    
                                 <option>Designer</option>
@@ -60,7 +60,7 @@ const LeftSide = () => {
                 </form>
             </div>
             <div className="md:flex-col md:flex mt-9 lg:border-t lg:border-l lg:border-r lg:border-b lg:rounded-lg">
-                <p className="font-bold text-gray-600 mt-4 lg:mb-3 mb-3 ml-5">Design your job post!</p>
+                <p className="font-bold text-gray-600 mt-4 lg:mb-3 mb-3 ml-2 lg:ml-5">Design your job post!</p>
 
                 <div class="lg:flex md:flex md:flex-row lg:flex-row lg:ml-10 lg:mt-2 lg:mb-2 md:ml-2 flex mt-5">
                     <input id="box" type="checkbox" class="focus:ring-indigo-500 h-6 w-6 text-indigo-600 border-gray-300 rounded" />
@@ -91,7 +91,7 @@ const LeftSide = () => {
 
 
             <div className="md:flex-col md:flex mt-9 lg:border-t lg:border-l lg:border-r lg:border-b lg:rounded-lg">
-                <p className="font-bold text-gray-600 mt-4 lg:mb-3 mb-3 ml-5">Job Details</p>
+                <p className="font-bold text-gray-600 mt-4 lg:mb-3 mb-3 ml-2 lg:ml-5">Job Details</p>
                 <div className="ml-5 md:flex md:flex-row lg:flex lg:flex-row">
                     <p>
                         Upload Company Logo
@@ -100,25 +100,27 @@ const LeftSide = () => {
                         +
                     </button>
                 </div>
-                <p className="font-bold text-gray-600 mt-4 lg:mb-3 mb-3 ml-5">
+                <p className="font-bold text-gray-600 mt-4 lg:mb-3 mb-3 ml-2 lg:ml-5">
                     Annual Salary(USD)
                 </p>
-                <div className="ml-10 md:flex md:flex-row lg:flex lg:flex-row">
-                    <input type="text" className="mr-4" /> - <input type="text" className="ml-4" />
+                <div className="lg:ml-5 -ml-36 flex lg:w-4/5 items-center  flex-col md:flex md:flex-row lg:flex lg:flex-row">
+                    <input type="text" className="lg:mr-4 border-l border-t border-r border-b rounded-lg lg:w-full w-2/5" /> 
+                    - 
+                    <input type="text" className="lg:ml-4 border-l border-t border-r border-b rounded-lg lg:w-full w-2/5" />
                 </div>
                 <p className="lg:ml-6 w-4/5 text-xs text-gray-400">
                     Not required but HIGHLY recommended, because Google does NOT index jobs without salary data! Write it preferrably in US DOLLARS PER YEAR, like $75,000. If you pay hourly, or monthly, please convert to annual equivalent yourself (hourly rate * 8h * 22d * 12mo OR monthly salary * 12mo). Our robot can also convert it but it's not perfect and it might make a mistake if you enter it differently than annual. If not sure, write an indication of the salary.
                 </p>
 
                 <div>
-                    <p className="font-bold text-gray-600 lg:mt-9 mt-4 lg:mb-3 mb-3 ml-5">Job Description</p>
-                    <textarea id="about" name="about" rows="3" class="ml-5 w-full max-w-lg shadow-sm block focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm border-gray-300 rounded-md border-l border-r border-t border-b"></textarea>
+                    <p className="font-bold text-gray-600 lg:mt-9 mt-4 lg:mb-3 mb-0 ml-0 lg:ml-5 lg:mb-3">Job Description</p>
+                    <textarea id="about" name="about" rows="3" class="ml-5 w-full -ml-1 lg:ml-4 lg:w-full max-w-lg shadow-sm block focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm border-gray-300 rounded-md border-l border-r border-t border-b"></textarea>
                 </div>
 
                 <div>
-                    <p className="font-bold text-gray-600 lg:mt-9 mt-4 lg:mb-3 mb-3 ml-5">How to apply</p>
-                    <textarea id="about" name="about" rows="3" class="ml-5 w-full max-w-lg shadow-sm block focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm border-gray-300 rounded-md border-l border-r border-t border-b"></textarea>
-                    <p className="ml-10 lg:ml-5 max-w-2xl text-xs text-gray-400">
+                    <p className="font-bold text-gray-600 lg:mt-9 lg:mt-4 lg:mb-3 mt-2 mb-0 ml-0 lg:ml-5">How to apply</p>
+                    <textarea id="about" name="about" rows="3" class="ml-5 w-full -ml-1 lg:ml-4 lg:w-full max-w-lg shadow-sm block focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm border-gray-300 rounded-md border-l border-r border-t border-b"></textarea>
+                    <p className="-ml-1 lg:ml-5 max-w-2xl text-xs text-gray-400">
                         Not required
                     </p>
                 </div>
