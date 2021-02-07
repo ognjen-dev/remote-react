@@ -120,7 +120,7 @@ const LeftSide = () => {
                 <div>
                     <p className="font-bold text-gray-600 lg:mt-9 lg:mt-4 lg:mb-3 mt-2 mb-0 ml-0 lg:ml-5">How to apply</p>
                     <textarea id="about" name="about" rows="3" class="ml-5 w-full -ml-1 lg:ml-4 lg:w-full max-w-lg shadow-sm block focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm border-gray-300 rounded-md border-l border-r border-t border-b"></textarea>
-                    <p className="-ml-1 lg:ml-5 max-w-2xl text-xs text-gray-400">
+                    <p className="-ml-1 lg:ml-5 max-w-2xl text-xs lg:mb-4 text-gray-400">
                         Not required
                     </p>
                 </div>
